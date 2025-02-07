@@ -48,7 +48,5 @@ Grandior is an online store for a specific perfume company, allowing customers t
 - **Database**:
   - MongoDB or MySQL (for storing user data, orders, and perfume information) 
 
-- **Authentication**:
-  - JWT (JSON Web Tokens) for user authentication 
-  - Bcrypt.js for password encryption 
+
   
