@@ -1,7 +1,7 @@
-# Fragnique - Perfume Customization and Online Store 
+# Grandior - Perfume Customization and Online Store 
 
 ##  🎯Objective
-Fragnique is an online store for a specific perfume company, allowing customers to browse and purchase luxury perfumes. Customers can customize their own perfumes by selecting top, middle, and base notes, recreate scents from popular fragrances, and place orders with Cash on Delivery (COD) payment option. The website aims to provide a secure, personalized shopping experience for fragrance enthusiasts. 
+Grandior is an online store for a specific perfume company, allowing customers to browse and purchase luxury perfumes. Customers can customize their own perfumes by selecting top, middle, and base notes, recreate scents from popular fragrances, and place orders with Cash on Delivery (COD) payment option. The website aims to provide a secure, personalized shopping experience for fragrance enthusiasts. 
 
 ##  📝 Pages
 
@@ -9,7 +9,7 @@ Fragnique is an online store for a specific perfume company, allowing customers 
    - Secure and personalized access for customers to manage their orders, preferences, and profile.
    
 ### 2. **Home** 
-   - Overview of the Fragnique shop.
+   - Overview of the Grandior shop.
    - Display of most popular fragrances.
    - New launches.
    - Blog section for fragrance tips, trends, and news. 
