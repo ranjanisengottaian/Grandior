@@ -1,3 +1,4 @@
+// filepath: /C:/Users/savit/OneDrive/Desktop/new_repo/Grandior/client/src/pages/AboutusPage.jsx
 import React from 'react';
 import './Aboutuscss.css';
 
@@ -18,7 +19,7 @@ export default function AboutusPage() {
             <h2>Contact Us</h2>
             <p>If you have any questions or comments, please reach out to us:</p>
             <ul className='contact-info'>
-                <li className='list'>Email: <br/> <a href="mailto:support@grandior.com" >support@grandior.com</a></li> <br/>
+                <li className='list'>Email: <br/> <a href="mailto:support@grandior.com">support@grandior.com</a></li> <br/>
                 <li className='list'>Phone: <br/>+1 (123) 456-7890</li><br/>
                 <li className='list'>Address: <br/>123 Fragrance Lane, Scent City, SC 12345</li><br/>
             </ul>

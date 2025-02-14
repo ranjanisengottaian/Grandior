@@ -34,7 +34,7 @@ p {
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
 }
 
@@ -78,11 +78,4 @@ ul li::before {
 
 .contact-info li a:hover {
     text-decoration: underline;
-}
-
-.list {
-    display: block;
-    justify-content: space-around;
-    margin-bottom: 20px;
-    margin-right: 30px;
 }
