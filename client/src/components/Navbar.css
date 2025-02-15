@@ -5,8 +5,11 @@
 }
 
 nav {
-    background-color:white;
+    background-color: white;
     padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 ul {
@@ -16,6 +19,18 @@ ul {
     align-items: center;
     margin: 0;
     padding: 0;
+    flex-grow: 1;
+}
+
+.logo-sec {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.logo-sec img {
+    max-height: 50px; /* Adjust the height as needed */
+    margin-right: 1rem;
 }
 
 li {
@@ -31,13 +46,20 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
-    color: rgb(117, 28, 147);
-    background-color:rgb(240, 221, 254);
-    border-radius: 4px;
+    color: rgb(28, 33, 33);
+    background-color: rgb(247, 243, 250);
+    border-radius: 5px;
 }
 
 a.active {
     color: rgb(203, 157, 219);
     font-weight: bold;
+}
+
+.grandior-text {
+    background-color:black;
+    font-size: 2rem;
+    color:white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }

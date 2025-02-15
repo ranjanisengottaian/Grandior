@@ -4,6 +4,7 @@ import './Aboutuscss.css';
 export default function AboutusPage() {
     return (
         <div className="container">
+           <div className="text-container">
             <h1>About Us</h1>
             <p>
                 Welcome to Grandior, your number one source for all things fragrance and candles. We're dedicated to giving you the very best of our products, with a focus on quality, customer service, and uniqueness.
@@ -22,6 +23,7 @@ export default function AboutusPage() {
                 <li>Phone: <br/> +1 (123) 456-7890</li>
                 <li>Address: <br/> 123 Fragrance Lane, Scent City, SC 12345</li>
             </ul>
+          </div>
         </div>
     );
 }

@@ -6,17 +6,33 @@ body {
 }
 
 .container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px 40px;
-    background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
+    width: 100%;
+    padding:40px ;
+    position: relative; /* Ensure the container is positioned relative for the pseudo-element */
+    overflow: hidden; /* Hide any overflow from the pseudo-element */
+}
+
+.text-container{
+    padding: 100px;
+}
+.container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/background-img.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9; /* Adjust the opacity as needed */
+    z-index: -1; /* Ensure the pseudo-element is behind the content */
 }
 
 h1, h2 {
-    color: #444;
+    color:white;
     margin-bottom: 20px;
+    font-weight: bold;
 }
 
 h1 {
@@ -33,6 +49,8 @@ h2 {
 p {
     margin-bottom: 20px;
     text-align: justify;
+    color:white;
+    font-weight: 400;
 }
 
 ul {
@@ -46,7 +64,7 @@ ul li {
 }
 
 ul li::before {
-    color: #444;
+    color:white;
     display: block;
     width: 1em;
     margin-left: -1em;
@@ -62,10 +80,7 @@ ul li::before {
 }
 
 .contact-info {
-    background-color: #f9f9f9;
     padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin-top: 20px;
 }
 
@@ -74,10 +89,11 @@ ul li::before {
     list-style-type: none; /* Remove bullet points */
     margin-left: 10px;
     display: block;
+    color:white
 }
 
 .contact-info li a {
-    color: #007BFF;
+    color: #b7c8db;
     text-decoration: none;
 }
 
